@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  text-align: center;
+}
+
+#game-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#game-board {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #1a1a1a;
+  margin: 20px auto;
+  border: 3px solid #00ff99;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+#player {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 28px;
+}
+
+#score, #timer {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+#message {
+  font-size: 14px;
+  height: 20px;
+  color: #ffcc00;
+}
+
+#mobile-controls {
+  margin-top: 20px;
+}
+
+#mobile-controls button {
+  background: #00cc99;
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
